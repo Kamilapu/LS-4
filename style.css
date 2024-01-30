@@ -1,0 +1,113 @@
+body {
+     font-family: "Roboto", sans-serif;
+}
+
+.container {
+     max-width: 1512px;
+     padding: 60px 80px 141px 80px;
+     margin-inline: auto;
+}
+
+.nav {
+     display: flex;
+     justify-content: flex-end;
+     gap: 20px;
+}
+
+.nav-link {
+     color: #000;
+     font-family: "Roboto", sans-serif;
+     font-size: 30px;
+     font-weight: 700;
+     text-decoration: none;
+}
+
+.main {
+     margin-top: 128px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 50px;
+}
+
+.title {
+     color: #000;
+     font-family: Roboto, sans-serif;
+     font-size: 87px;
+     font-weight: 700;
+     line-height: 90px;
+     margin-bottom: 40px;
+}
+
+.subtitle {
+     font-size: 80px;
+}
+
+.description {
+     color: #6B6868;
+     font-family: Roboto, sans-serif;
+     font-size: 29px;
+     font-weight: 500;
+     line-height: 45px;
+     max-width: 762px;
+     margin-bottom: 52px;
+}
+
+.btn-group {
+     gap: 38px;
+     display: flex; 
+}
+
+.btn {
+     cursor: not-allowed;
+     display: inline-block;
+     outline: 0px;
+     border: 0px;
+     text-decoration: none;
+
+}
+
+.btn-primary {
+     border: 2px solid #000;
+     padding: 30px 50px;
+     color: #000;
+     font-family: Roboto, sans-serif;
+     font-size: 32px;
+     font-weight: 700;
+     line-height: 24px;
+}
+
+.btn-secondary {
+     border: 2px solid #000;
+     padding: 30px 50px;
+     background: #000;
+     color: #FFF;
+     font-family: Roboto, sans-serif;
+     font-size: 32px;
+     font-weight: 700;
+     line-height: 24px;
+}
+
+.image {
+     max-width: 497px;
+     width: 100%;
+     border-radius: 0px 0px 0px 240px;
+     position: relative; 
+}
+
+.image img {
+     border-radius: 0px 0px 0px 240px;
+     border: 5px solid black;
+     position: relative;
+     z-index: 2;
+}
+
+     .image-backdrop {
+     position: absolute;
+     width: calc(100% - 8px);
+     height: calc(100% - 19px);
+     background: #000;
+     top: -12px;
+     right: -17px;
+     border-radius: inherit;
+}
